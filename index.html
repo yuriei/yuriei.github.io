@@ -1,0 +1,365 @@
+
+<!DOCTYPE HTML>
+<!--
+	Miniport by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<!-- Tag is used to insert comments! -->
+<html>
+	<head>
+		<title>Yurie's portfolio</title>
+<<<<<<< HEAD
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="description here" />
+=======
+		<!-- meta tag is used for meta data of the website -->
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="this is the description of the page" />
+>>>>>>> origin/gh-pages
+		<meta name="keywords" content="some of the keywords" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<!--script tag is used to embed or reference an executable script within an HTML doc-->
+		<script src="js/jquery.min.js"></script> 
+		<script src="js/jquery.scrolly.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/init.js"></script>
+		<!-- nonscript tag will display alternate HTML content if the script type is not supported-->
+		<noscript>
+			<!-- link tag is used to link to external syle sheets-->
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+		<link rel="shortcut icon" href="images/favicon.ico" >
+	</head>
+	<body>
+
+		<!-- Nav -->
+			<!--nav tag defines a set of navigation links-->
+			<nav id="nav"> <!-- id = nav is used in the CSS file-->
+				<!-- ul tag inserts an unordered list and the class attribute tells the browswer which style sheet to refer to-->
+				<ul class="container">
+					<!-- # referes to an id of a section within the same page and just scrolls down-->
+					<li><a href="#top">Top</a></li>
+					<li><a href="#work">Work</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#myjourney">My Lifetime Journey</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+
+		<!-- Home -->
+			<!-- in HTML, class can be used when you have multiple elements sharing the same style while id can be used for a single element.-->
+			<!-- also in CSS, class will be referred by "." whereas id will be reffered with "#".-->
+			<div class="wrapper style first"> <!-- associated with .wrapper.style1 css-->
+				<center>
+				<article class="container" id="top">
+					<div class="row"> 
+					<!-- divides into sections. The tag can be used to group together HTML elements and apply CSS to many elements at once-->
+						<div class="4u">
+						<span class="image fit"><img src="images/yokohama_03.jpg" alt="" /></span>
+						</div>
+						
+						<div class="8u">
+							<header>
+								<h1>Hi I'm <strong>Yurie</strong>.</h1>
+							</header>
+							<font color=#3e3e3e>
+							<p>This is my website where I share my work related contents :)! I earned my bachelor’s degree in Social Geography from Yokohama City University in Japan and my master’s degree in Spatial Analysis with a main focus on epidemiology from Ryerson University <a href="http://www.ryerson.ca/graduate/programs/spatial/">(MSA)</a> in Toronto.
+							</p>
+							</font>
+							<a href="#work" class="button big scrolly">Learn about what I do</a>
+						</div>
+					</div>
+				</article>
+				</center>
+			</div>
+
+		<!-- Work -->
+			<div class="wrapper style2">
+				<article id="work" class="box style1">
+					<header>
+						<h2>Here's all the stuff I do.</h2>
+					</header>
+					<div class="container">
+						<div class="row">
+							<div class="4u">
+								<section class="box style1">
+									<span class="icon featured fa-table"></span> <!--fa-comments-o-->
+									<h3>Data management</h3>
+									<ul align="left">
+									<li>- Tabular and spatial data manipulation</li>
+									<li>- Software include:</li>
+									<li>    MS SQL Server, MS Access, PostgreSQL, MS Excel, Python, Visual Basic</li>
+									</ul>
+								</section>
+							</div>
+
+							<div class="4u">
+								<section class="box style1">
+									<span class="icon featured fa-bar-chart"></span>
+									<h3>Data analysis</h3>
+									<ul align="left">
+									<li>- Geospatial and statistical analysis</li>
+									<li>- Software include:</li>
+									<li>    ArcGIS, PostGIS, R, SPSS, GeoDa, SaTScan</li>
+									</ul>
+								</section>
+							</div>
+							
+							<div class="4u">
+								<section class="box style1">
+									<span class="icon featured fa-map-marker"></span>
+									<h3>Mapping / visualization</h3>
+									<ul align="left">
+									<li>- Data visualization experience using retail, environmental, and epidemiological data</li>
+									<li>- Software include:</li>
+									<li>    ArcGIS, QGIS, R, MapInfo, MS PowerPoint</li>
+									</ul>
+								</section>
+							</div>
+						</div>
+					</div>
+					<footer>
+						<p><font color=#3e3e3e>More specific work that I've done?</font></p>
+						<a href="#portfolio" class="button big scrolly">See some of my recent work</a>
+					</footer>
+				</article>
+			</div>
+
+		<!-- Portfolio -->
+			<div class="wrapper style3">
+				<article id="portfolio">
+					<header>
+						<h2>Here are some maps that I made in the past.</h2>
+						<p><font color=#3e3e3e>Please feel free to take a look!</font></p>
+					</header>
+					<div class="container">
+						<div class="row">
+								<div class="4u">
+									<article class="box style2">
+										<a href="https://yurie.shinyapps.io/UNHCR-Somalia-Drought/" class="image featured"><img src="images/SomaliaMap.png" alt="" /></a>
+										<h3><a target="_blank" href="https://yurie.shinyapps.io/UNHCR-Somalia-Drought/">R Shiny: Somalia drought-related population movements</a></h3>
+										<p>I created this map based on information extracted from the UNHCR Somalia - PRMN Drought displacements <a href="https://data2.unhcr.org/en/documents/details/57361">report</a>. R Shiny application was used to visualize the information.</p>
+									</article>
+								</div>
+								<div class="4u">
+									<article class="box style2">
+										<a href="http://www.who.int/emergencies/famine/disease-maps/en/" class="image featured"><img src="images/HoA-cholera.png" alt="" /></a>
+										<h3><a href="http://www.who.int/emergencies/famine/disease-maps/en/">Horn of Africa - Food insecurity crisis</a></h3>
+										<p>A series of maps created during the Horn of Africa - Food insecurity crisis in 2017. These maps show the Integrated Food Security Phase Classification (IPC) and cumulative number of acute watery diarrhea and cholera cases in the affected countries.</p>
+									</article>
+								</div>
+								<div class="4u">
+									<article class="box style2">
+										<a href="http://www.who.int/emergencies/yellow-fever/maps/en/" class="image featured"><img src="images/AngolaDRCYF.png" alt="" /></a>
+										<h3><a href="http://www.who.int/emergencies/yellow-fever/maps/en/">Angola & DR Congo - Yellow fever outbreak 2016</a></h3>
+										<p>Our team at WHO was actively producing geospatial information products during the yellow fever outbreaks which affected Angola and Democratic Republic of the Congo in 2016.</p>
+									</article>
+								</div>
+						</div>
+					
+						<div class="row">
+							<div class="4u">
+								<article class="box style2">
+									<a href="images/cancer.png" class="image featured"><img src="images/cancer.png" alt="" /></a>
+									<h3><a href="images/cancer.png">Global cancer mortality map</a></h3>
+									<p>The map summarizes the number of cancer mortality by the World Bank income classification, estimated by our research team at the Centre for Global Health Research (CGHR; currently under review).</p>
+								</article>
+							</div>
+							<div class="4u">
+								<article class="box style2">
+									<a href="images/who_systematic_review.png" class="image featured"><img src="images/who_systematic_review.png" alt="" /></a>
+									<h3><a href="images/who_systematic_review.png">WHO systematic review - summary map</a></h3>
+									<p>This map was created for a systematic review completed by my colleagues at CGHR to identify the major causes of death among children aged 5-14 years in low- and middle-income countries. The map was used in the summary report submitted to the World Health Organization (WHO).</p>
+								</article>
+							</div>
+							<div class="4u">
+								<article class="box style2">
+									<a href="images/LISA maps.png" class="image featured"><img src="images/LISA maps.png" alt="" /></a>
+									<h3><a href="images/LISA maps.png">Hot & cold spots of PM<sub>10</sub>air pollution and pneumonia prevalence</a></h3>
+									<p>These maps were created for my master's thesis, in which the impact of fine particulate matter (PM<sub>10</sub>) on cardiorespiratory diseases in India was investigated. 
+									The 2 maps show the clustering results from the LISA (local indicators of spatial association) statistics.</p>
+								</article>
+							</div>
+						</div>
+						<div class="row">
+							<div class="4u">
+								<article class="box style2">
+									<a href="images/mdg_u5.png" class="image featured"><img src="images/mdg_u5.png" alt="" /></a>
+									<h3><a href="images/mdg_u5.png">Under-5 mortality Millennium Development Goal (MDG) progress map in India</a></h3>
+									<p>I created this map for one of my colleagues at CGHR who was analyzing the MDG progress in under-5 child mortality in Indian urban agglomeration areas. We had three major pieces of information to display on the map, which was a bit challenging. I was able to work this around by changing the symbol size and the label formatting. A JavaScript code was used to generate the data-driven map labels. I also made sure that smaller circles would lie on top bigger circles wherever they overlap.</p>
+								</article>
+							</div>
+							<div class="4u">
+								<article class="box style2">
+									<a href="images/PM2.5 exposure data 2010-12 v4.png" class="image featured"><img src="images/PM2.5 exposure data 2010-12 v4.png" alt="" /></a>
+									<h3><a href="images/pm25_populPM2.5 exposure data 2010-12 v4ation.png">Concentrations of ambient PM2.5 and proportion of population exposed in India</a></h3>
+									<p>This map was created for one of the main projects that I have been working on at CGHR, which looks at ambient air pollution (PM2.5) and its adverse health impacts in India. I used a satellite-derived ambient PM2.5 GeoTiff file and the GPW population grid to generate this map.</p>
+								</article>
+							</div>
+							<div class="4u">
+								<article class="box style2">
+									<a href="images/geodem.png" class="image featured"><img src="images/geodem.png" alt="" /></a>
+									<h3><a href="images/geodem.png">Geodemographic final cluster map</a></h3>
+									<p>I made this map for my final project of the Geodemographic course. K-means cluster analysis was used to group together census tracts with similar characteristics in terms of socio-economic statuses, ethnicity, family structure, and life styles etc to generate the geodemographic clusters. These clusters can be useful for both business sectors and public policy makers to identify where their targeted population groups are! Details of some of the demographic clusters can be found <a href="images/C-5 Description.pdf">here</a>.</p>
+								</article>
+							</div>
+						</div>
+						<div class="row">
+							<div class="4u">
+								<article class="box style2">
+									<a href="images/Measured vs. satellite PM comparison.png" class="image featured"><img src="images/Measured vs. satellite PM comparison.png" alt="" /></a>
+									<h3><a href="images/Measured vs. satellite PM comparison.png">Satellite-derived vs. measured air quality data</a></h3>
+									<p>I created this figure to visualize Pearson correlation results, in which I compared satellite-derived and ground-measured air quality data in India.</p>
+								</article>
+							</div>
+							<div class="4u">
+								<article class="box style2">
+									<a href="images/Muslim cluster.png" class="image featured"><img src="images/Muslim cluster.png" alt="" /></a>
+									<h3><a href="images/Muslim cluster.png">Muslim clusters in India</a></h3>
+									<p>There are many epidemiological studies indicating associations bewteen certain health outcomes and religions (i.e. lower cervical/breast cancer screening rates among Muslims). 
+									I downloaded Indian Census data to analyze spatial clustering of different religions in the country.</p>
+								</article>
+							</div>
+							<div class="4u">
+								<article class="box style2">
+									<a href="files/GOstations_test.xlsm" class="image featured"><img src="images/GOtrainOverview.png" alt="" /></a>
+									<h3><a href="files/GOstations_test.xlsm">GO train station long/lat extraction VBA</a></h3>
+									<p>The file contains a Visual Basic script that I wrote to extract the XY coordinates (long/lat) of GO train stations from wikipedia pages for my remote sensing project. When you open the file, please chose "Enable Editing" at the top, then click the "Get XY coordinates" button to test the script.</p>
+								</article>
+							</div>
+						</div>
+						
+						<div class="row">
+							<div class="4u">
+								<article class="box style2">
+									<a href="images/cma_guelph_inc.png" class="image featured"><img src="images/cma_guelph_inc.png" alt="" /></a>
+									<h3><a href="images/cma_guelph_inc.png">Bell store trade area analysis</a></h3>
+									<p>This map was created when I was part of the Bell Mobility internship program. The map displays the trade areas of the 3 bell stores located in the CMA Guelph, which were generated based on the thiessen polygon method in ArcGIS. The CT-level average household income, road network, as well as the locations of other retail stores are also displayed.</p>
+								</article>
+							</div>
+							<div class="4u">
+								<article class="box style2">
+									<a href="images/Dixie_Outlet_Mall.png" class="image featured"><img src="images/Dixie_Outlet_Mall.png" alt="" /></a>
+									<h3><a href="images/Dixie_Outlet_Mall.png">Potential advertisement locations at Dixie Outlet Mall</a></h3>
+									<p>Another map created during my time at Bell Mobility internship program. The map was created based on the mall floor plan as well as the billboard location data which we collected in the field using a portable GPS device. To visualize the optimal lolcation of the company's advertisements, we measured the approximate viewable areas for each of the billboard within/outside the mall. (Yes, it was a lot of work!)</p>
+								</article>
+							</div>
+								
+							<div class="4u">
+								<article class="box style2">
+									<a href="images/RS_change_detection.png" class="image featured"><img src="images/RS_change_detection.png" alt="" /></a>
+									<h3><a href="images/RS_change_detection.png">Land cover change detection</a></h3>
+									<p>This was part of my remote sensing assignment, where I looked at land cover changes within 5km catchment areas of different GO train stations using Landsat imagery. I used ENVI to select the training set and run supervised maximum likelihood classification.</p>
+								</article>
+							</div>
+						</div>
+					</div>
+				</article>
+			</div>
+
+		<!-- My Lifetime Journey -->
+			<div class="wrapper style first"> <!-- associated with .wrapper.style1 css-->
+				<center>
+				<article class="container" id="myjourney">
+					<header>
+						<h2>Finally, I enjoy travelling for whatever purposes!</h2>
+						<p><font color=#3e3e3e>The map below shows all the places I have been in my life.</br>
+						This map was produced using R Shiny, Leaflet, and the Stamen Watercolor map as a basemap.
+						</font></p>
+					</header>
+					
+					<div class="row"> 
+					<!-- divides into sections. The tag can be used to group together HTML elements and apply CSS to many elements at once-->
+						<div class="12u">
+						<iframe src="https://yurie.shinyapps.io/My-Lifetime-Journey/" height="600" width="80%" style="border:none;"></iframe>
+						</div>
+					</div>
+					
+					<footer>
+						<p><font color=#3e3e3e>Thanks for taking a look at my work! Any questions?</font></p>
+						<a href="#contact" class="button big scrolly">Get in touch with me</a>
+					</footer>
+				</article>
+				</center>
+			</div>
+
+
+			<!-- Contact -->
+			<div class="wrapper style4">
+				<article id="contact" class="container small">
+					<header>
+						<h2><font color=#3e3e3e>Please feel free to contact :)</font></h2>
+					</header>
+					<div>
+						<div class="row">
+							<div class="12u">
+								<form method="post" action="mailer.php" method="post">
+									<div>
+										<div class="row">
+											<div class="6u">
+												<input type="text" name="name" id="name" placeholder="Name" />
+											</div>
+											<div class="6u">
+												<input type="text" name="email" id="email" placeholder="Email" />
+											</div>
+										</div>
+										<div class="row">
+											<div class="12u">
+												<input type="text" name="subject" id="subject" placeholder="Subject" />
+											</div>
+										</div>
+										<div class="row">
+											<div class="12u">
+												<textarea name="message" id="message" placeholder="Message"></textarea>
+											</div>
+										</div>
+										<div class="row double">
+											<div class="12u">
+												<ul class="actions">
+													<li><input type="submit" value="Send Message" /></li>
+													<li><input type="reset" value="Clear Form" class="alt" /></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+						<div class="row">
+							<div class="12u">
+								<hr />
+								<h3><font color=#3e3e3e>Find me on ...<font></h3>
+								<ul class="social">
+									<li><a href="https://www.linkedin.com/pub/yurie-maher" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://github.com/myblogs" class="icon fa-github"><span class="label">Github</span></a></li>
+									<!--
+									<li><a href="#" class="icon fa-rss"><span>RSS</span></a></li>
+									<li><a href="#" class="icon fa-instagram"><span>Instagram</span></a></li>
+									<li><a href="#" class="icon fa-foursquare"><span>Foursquare</span></a></li>
+									<li><a href="#" class="icon fa-skype"><span>Skype</span></a></li>
+									<li><a href="#" class="icon fa-soundcloud"><span>Soundcloud</span></a></li>
+									<li><a href="#" class="icon fa-youtube"><span>YouTube</span></a></li>
+									<li><a href="#" class="icon fa-blogger"><span>Blogger</span></a></li>
+									<li><a href="#" class="icon fa-flickr"><span>Flickr</span></a></li>
+									<li><a href="#" class="icon fa-vimeo"><span>Vimeo</span></a></li>
+									-->
+								</ul>
+								<hr />
+							</div>
+						</div>
+					</div>
+					<footer>
+						<ul id="copyright">
+							<li>&copy; Yurie I. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
+				</article>
+			</div>
+
+	</body>
+</html>
